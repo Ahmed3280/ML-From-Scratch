@@ -14,6 +14,7 @@ using only NumPy. Each implementation includes:
 | Logistic Regression | 🔄 In progress | |
 | Decision Tree | ⏳ Coming | |
 | Random Forest | ⏳ Coming | |
+| KNN | ⏳ Coming | |
 | K-Means | ⏳ Coming | |
 | Neural Network | ⏳ Coming | |
 
