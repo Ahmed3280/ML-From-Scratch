@@ -10,7 +10,7 @@ using only NumPy. Each implementation includes:
 ## Algorithms
 | Algorithm | Status | Notebook |
 |-----------|--------|---------|
-| Linear Regression | ✅ Done | link |
+| Linear Regression | ✅ Done | [link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/linear_regression) |
 | Logistic Regression | 🔄 In progress | |
 | Decision Tree | ⏳ Coming | |
 | Random Forest | ⏳ Coming | |
