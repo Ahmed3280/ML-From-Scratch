@@ -1,6 +1,6 @@
 # Logistic Regression from Scratch
 
-## What
+## Overview
 Binary classification using Logistic Regression implemented 
 with only NumPy. No sklearn used for the model itself.
 
