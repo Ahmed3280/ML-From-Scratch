@@ -21,7 +21,7 @@ EDA -> Outlier Capping (99th percentile) -> Stratified Split -> StandardScaler -
 ```python
 class KNNClassifier:
     def fit(self, X, y):
-        self.fit_X = X   # no computation — lazy learner
+        self.fit_X = X   # no computation lazy learner
         self.fit_y = y
 
     def euclidean_distance(self, x):
