@@ -11,7 +11,7 @@ using only NumPy. Each implementation includes:
 | Algorithm | Status | Notebook |
 |-----------|--------|---------|
 | Linear Regression | ✅ Done | [link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/linear_regression) |
-| Logistic Regression | 🔄 In progress | |
+| Logistic Regression | ✅ Done | [link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/Logistic_Regression) |
 | Decision Tree | ⏳ Coming | |
 | Random Forest | ⏳ Coming | |
 | KNN | ⏳ Coming | |
