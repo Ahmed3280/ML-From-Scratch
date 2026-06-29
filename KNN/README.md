@@ -8,7 +8,7 @@ No ML libraries used for the model itself. The goal is to understand the algorit
 
 ## Dataset
 
-Wine dataset (sklearn built-in) — 178 samples, 13 numerical features, 3 classes (wine cultivars). Chosen because all features are numerical (Euclidean distance applies directly), features have wildly different scales (makes scaling impact dramatic and measurable), and 3 classes shows KNN generalizes beyond binary classification.
+Wine dataset (sklearn built-in) 178 samples, 13 numerical features, 3 classes (wine cultivars). Chosen because all features are numerical (Euclidean distance applies directly), features have wildly different scales (makes scaling impact dramatic and measurable), and 3 classes shows KNN generalizes beyond binary classification.
 
 ## Pipeline
 
@@ -38,8 +38,8 @@ class KNNClassifier:
 ```
 
 Key design decisions:
-- Distance computation fully vectorized using NumPy broadcasting — no Python loop inside `euclidean_distance`
-- `fit()` does zero computation — all cost is deferred to prediction time (lazy learner)
+- Distance computation fully vectorized using NumPy broadcasting no Python loop inside `euclidean_distance`
+- `fit()` does zero computation all cost is deferred to prediction time (lazy learner)
 - Majority vote via `np.bincount().argmax()`
 
 ## Results
@@ -49,7 +49,7 @@ Key design decisions:
 | K used | 7 | 5 |
 | Accuracy | 1.0000 | 0.9722 |
 
-Both implementations use identical logic — the difference is K value only.
+Both implementations use identical logic the difference is K value only.
 
 ## Effect of Scaling
 
@@ -66,12 +66,10 @@ Best K found at K=7 via accuracy vs K plot across K=1 to 20. Even-numbered K val
 
 ## Key Concepts Demonstrated
 
-- Why KNN is a lazy learner — no training computation, all cost at inference
+- Why KNN is a lazy learner no training computation, all cost at inference
 - Why scaling is non-negotiable for distance-based models
 - Vectorized distance computation with NumPy broadcasting
-- Majority voting with `np.bincount`
 - Stratified train-test split for multi-class problems
-- Why even K values hurt with multiple classes
 
 ## Stack
 
