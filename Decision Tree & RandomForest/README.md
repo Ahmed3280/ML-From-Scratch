@@ -45,7 +45,7 @@ Confusion matrices were identical between implementations.
 | Sklearn | 99.34% | 95.61% |
 
 ## Confusion Matrix — Decision Tree
-                 Predicted
-                 Malignant  Benign
+Predicted
+             Malignant  Benign
 Actual Malignant    39        3
 Actual Benign         4       68
