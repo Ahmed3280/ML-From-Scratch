@@ -12,8 +12,7 @@ using only NumPy. Each implementation includes:
 |-----------|--------|---------|
 | Linear Regression | ✅ Done | [link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/linear_regression) |
 | Logistic Regression | ✅ Done | [link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/Logistic_Regression) |
-| Decision Tree | ⏳ Coming | |
-| Random Forest | ⏳ Coming | |
+| Decision Tree & Random Forest | ⏳ Coming | |
 | KNN | ✅ Done |[link](https://github.com/Ahmed3280/ML-From-Scratch/tree/main/KNN) |
 | K-Means | ⏳ Coming | |
 | Neural Network | ⏳ Coming | |
