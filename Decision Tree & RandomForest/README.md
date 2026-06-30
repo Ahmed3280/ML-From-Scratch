@@ -1,8 +1,8 @@
 # Decision Tree & Random Forest from Scratch
 
-## What
+## Overview
 Binary classification using a Decision Tree and a Random Forest, both
-implemented with only NumPy. No sklearn used for the models themselves —
+implemented with only NumPy. No sklearn used for the models themselves
 sklearn is used solely for benchmarking.
 
 ## Math
@@ -23,9 +23,9 @@ picking whichever maximizes Information Gain.
   randomly chosen features, forcing trees to diverge structurally
 
 ## Dataset
-Breast Cancer Wisconsin — 569 samples, 30 features.
+Breast Cancer Wisconsin 569 samples, 30 features.
 Target: Malignant (0) vs Benign (1).
-No feature scaling applied — tree splits are threshold comparisons, so
+No feature scaling applied tree splits are threshold comparisons, so
 monotonic transforms like StandardScaler have no effect on the result.
 
 ## Results
@@ -45,3 +45,7 @@ Confusion matrices were identical between implementations.
 | Sklearn | 99.34% | 95.61% |
 
 ## Confusion Matrix — Decision Tree
+                 Predicted
+                 Malignant  Benign
+Actual Malignant    39        3
+Actual Benign         4       68
