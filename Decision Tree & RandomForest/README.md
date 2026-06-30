@@ -47,7 +47,7 @@ Confusion matrices were identical between implementations.
 ## Confusion Matrix Decision Tree
 ```
                          Predicted
-                     Malignant  Benign
+                 Malignant  Benign
 Actual Malignant      39      3
 Actual Benign         4       68
 ```
